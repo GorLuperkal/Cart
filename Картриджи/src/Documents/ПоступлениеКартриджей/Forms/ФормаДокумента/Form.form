@@ -789,10 +789,6 @@
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
     <handlers>
-      <event>AfterWrite</event>
-      <name>ПослеЗаписи</name>
-    </handlers>
-    <handlers>
       <event>BeforeWrite</event>
       <name>ПередЗаписью</name>
     </handlers>
