@@ -24,7 +24,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <interfaceCompatibilityMode>Version8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.2.13</compatibilityMode>
+  <compatibilityMode>8.3.6</compatibilityMode>
   <languages uuid="a471935c-b5c3-483e-b1ab-af722868a5ef">
     <name>Русский</name>
     <synonym>
