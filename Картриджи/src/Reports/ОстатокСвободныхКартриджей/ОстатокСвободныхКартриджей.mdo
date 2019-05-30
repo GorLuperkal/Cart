@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f00fabce-75f0-4421-843e-dd901c177c17">
+  <producedTypes>
+    <objectType typeId="f229a89c-4a9a-4cc4-bd5a-1cfa19be6e59" valueTypeId="9ebcf5eb-8c7e-491f-9054-ef7628ee2b7f"/>
+    <managerType typeId="71969edf-2e43-4d18-ba67-0d14fcb43776" valueTypeId="12a9f256-76da-4a9b-803a-89669c8166e9"/>
+  </producedTypes>
+  <name>ОстатокСвободныхКартриджей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остаток свободных картриджей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОстатокСвободныхКартриджей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="752d18f3-3bb8-4eac-98fe-b28dbf44d40e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

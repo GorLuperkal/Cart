@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95d78007-e876-4c3d-8622-2ce3acfeadac">
+  <producedTypes>
+    <objectType typeId="b6a8df4c-d43e-41e9-a6bf-b68792db3348" valueTypeId="8775c1ca-c302-4075-a288-54433b907133"/>
+    <refType typeId="c70ededb-8017-4873-b4fe-50bd54177035" valueTypeId="1789cf32-b8f3-487f-9a67-3d0f510d97ed"/>
+    <selectionType typeId="752d14a4-41d0-4dc0-80ae-75b57b58bc76" valueTypeId="29b47fdb-5d49-44bd-83e7-b5285a027a41"/>
+    <listType typeId="e22314a5-4fa3-4a75-bc27-74ca6918238d" valueTypeId="e475e216-297e-42dd-8b0f-2914041c3463"/>
+    <managerType typeId="16fe4ca8-73e5-4098-b2c5-9ecc18bdf832" valueTypeId="4a3d73ee-6fb4-4649-989a-7ee563986f65"/>
+  </producedTypes>
+  <name>ПоступлениеКартриджей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление картриджей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеКартриджей.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПоступлениеКартриджей.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ПоступлениеКартриджей.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.ПоступлениеКартриджей</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиКартриджей</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="687378df-b264-4e7c-9c1d-78e3e650eece">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="26d3072d-6d06-4f5b-a299-dc8d181ec036">
+    <name>ПодразделениеИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение источник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a7e12f03-cda2-4bbe-97a7-067a3dc7972d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7655d211-f719-4c3c-a8a4-73bfc2cc1cad">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="5bac0775-07ad-4bc0-872c-d72303b9fce9">
+    <producedTypes>
+      <objectType typeId="3493049f-6f81-499c-84d9-a9d7e2671311" valueTypeId="e9cbaa79-b96d-4565-878e-9466b6c551d3"/>
+      <rowType typeId="d3b4d10d-f898-4a5d-87ff-0505f02a5eef" valueTypeId="05eee5cc-67f9-4889-8d95-545db271c2b1"/>
+    </producedTypes>
+    <name>Картриджи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картриджи</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="a18238a1-1992-4d34-90c1-dd82f87208d4">
+      <name>Картриджи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Картриджи</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.МоделиКартриджей</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9b314ab2-cb74-4887-bfbb-dae9e79cf422">
+      <name>Производитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Производитель</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Производители</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="17207ac0-6d81-465f-b153-677f3f505883">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

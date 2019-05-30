@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6255e17-f544-433e-9723-571189fd31e6">
+  <producedTypes>
+    <objectType typeId="9b641518-42c1-4aa8-a75c-bc0f95a8d2bf" valueTypeId="5d2c43bb-4f9b-4cb2-93f8-9cb5dff25974"/>
+    <refType typeId="9227ff1e-02bd-4fa5-9a77-d599d2f88eed" valueTypeId="b0a4b91d-0e2f-4409-a98b-a572063d5c0b"/>
+    <selectionType typeId="700d5b1d-938b-40c6-9e2d-5ec5623141ad" valueTypeId="2e3ee90a-c248-46d9-9486-6e99b2cebcfd"/>
+    <listType typeId="3a817a17-5f37-44fe-a514-27e3118cef3e" valueTypeId="81aa14bc-c3a7-4b0b-a85f-9c7144e86509"/>
+    <managerType typeId="8c09ba21-a490-49e0-9417-3a4c49abbe11" valueTypeId="16b76af0-cf11-4928-904c-cbd15b78e70b"/>
+  </producedTypes>
+  <name>Филиалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Филиалы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Филиалы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Филиалы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bb0dd2ec-3513-447c-ae7c-d43dbe6a9557">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Города</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

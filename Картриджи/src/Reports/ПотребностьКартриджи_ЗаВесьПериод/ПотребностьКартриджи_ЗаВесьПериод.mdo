@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2917cacf-9960-44db-9598-8c9e9c1fa368">
+  <producedTypes>
+    <objectType typeId="1c08d436-d119-48bc-8da3-1bcddc83afad" valueTypeId="402a1205-a5a2-459d-b5c8-ae6009cee12a"/>
+    <managerType typeId="d5c9ca1e-6e1e-4042-971e-bee32ea4d155" valueTypeId="8fbc7b3d-5c41-4e10-bc04-6825bc16a52d"/>
+  </producedTypes>
+  <name>ПотребностьКартриджи_ЗаВесьПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Потребность картриджи (за весь период)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПотребностьКартриджи_ЗаВесьПериод.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="9e9edf51-80a5-4171-9d16-6e7602be0aae">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

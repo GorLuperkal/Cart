@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21caece0-7304-424b-acb7-7afb6ebac2a8">
+  <producedTypes>
+    <selectionType typeId="14f7c8b8-0d51-48c7-956d-8b313316cd9b" valueTypeId="1b8aa419-d9c9-4209-95d6-20410760ff12"/>
+    <listType typeId="5f3867e2-b49a-43ed-80a2-47ed2a6aa9f2" valueTypeId="77739e99-735c-4c1e-a337-49522841b29b"/>
+    <managerType typeId="5b3c5c96-29e4-406d-ba42-0d0f57bd66d1" valueTypeId="01d296c4-7e48-4687-9b9a-4ec633c4ebd5"/>
+    <recordSetType typeId="85292e39-7edd-433e-8c9b-421f4341bac6" valueTypeId="eec29695-19cc-4204-bf0d-f7fec0cc0900"/>
+    <recordKeyType typeId="ec57e3c2-c944-4532-83f8-cfbf6ffc808e" valueTypeId="a65ced35-a69d-4208-a894-f8f14b62d602"/>
+    <recordType typeId="bc3bf29a-3022-4b6b-8994-44e6807ffe3c" valueTypeId="95a4b9a2-936e-48ef-99e3-ce955ccb5d31"/>
+    <recordManagerType typeId="19650f25-74b7-4d0e-94fa-839eeef75440" valueTypeId="7bca624e-3eed-40be-8b94-c4ccf89d10d2"/>
+  </producedTypes>
+  <name>ИсторияПередчаиКартриджей</name>
+  <synonym>
+    <key>ru</key>
+    <value>История передчаи картриджей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Тут будем хранить историю передачи картриджей между подразделениями.</value>
+  </explanation>
+  <resources uuid="7feba643-43cc-4aad-9ea3-a79cd8efaec9">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fd001928-3e67-4e00-b225-81e82dcba8b3">
+    <name>ПодразделениеИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение источник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a52a0d31-857e-4d04-8b50-a174a7e13028">
+    <name>ПодразделениеПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение приемник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="074cf671-60bd-4782-9096-3e134168c6f6">
+    <name>Картридж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картридж</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.МоделиКартриджей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

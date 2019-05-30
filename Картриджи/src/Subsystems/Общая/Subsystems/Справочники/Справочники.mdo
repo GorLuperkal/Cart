@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e19562e-3dc1-4156-8370-9d3b5c59d94f">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <comment></comment>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.МоделиКартриджей</content>
+  <content>Catalog.Принтера</content>
+  <content>Catalog.Производители</content>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.Филиалы</content>
+  <content>Catalog.Города</content>
+  <content>360c2343-a2e4-4ea2-a04f-41f43f880999</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.ОбслуживаниеПринтеров</content>
+  <content>Catalog.Файлы</content>
+  <content>InformationRegister.ИсторияПередчаиКартриджей</content>
+  <parentSubsystem>Subsystem.Общая</parentSubsystem>
+</mdclass:Subsystem>

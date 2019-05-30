@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6964131f-9dd7-47bd-9695-9e1b260e48e1">
+  <producedTypes>
+    <objectType typeId="efdb398b-9080-4e49-b701-22fd4c08dd36" valueTypeId="8b505a0d-bc73-4c00-8ecb-154ceaac859d"/>
+    <refType typeId="e3166ba4-e47f-48c6-9fd4-b6f24da90f96" valueTypeId="119b1e90-a894-4cd5-92f0-5b201c10a603"/>
+    <selectionType typeId="02379ec0-e8d4-4e15-9d94-9d53287092ed" valueTypeId="b66e6cee-fb8f-4a27-99d9-492d813c4275"/>
+    <listType typeId="55ebc95e-56b8-4526-bea6-85a21b7b3a96" valueTypeId="12e24458-97ec-4da3-a3d0-409a200a5248"/>
+    <managerType typeId="d907bf26-3906-41c2-b45f-e2f2d84276e1" valueTypeId="25f784d4-c3da-4ce5-a6c6-7efd0dc30364"/>
+  </producedTypes>
+  <name>МоделиКартриджей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модели картриджей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МоделиКартриджей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МоделиКартриджей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МоделиКартриджей.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="9a8df3e4-1669-4e4b-897e-794ab0c2dfa7">
+    <name>Производитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производитель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Производители</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c2806209-dd8d-4aae-8aed-050bbf390e2a">
+    <name>ОсновноеИзображение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное изображение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Файлы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ВидДанных</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ВидыДополнительнойИнформацииОбъектов.EnumValue.Изображение</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="e4417fa9-a1fd-47bf-81ac-af1f553cf8cd">
+    <producedTypes>
+      <objectType typeId="704faf6d-a1dc-4aca-a8e4-2ee71f3e7883" valueTypeId="c8accde6-f69a-4e61-862c-70b4a5489c55"/>
+      <rowType typeId="40f0a974-cc74-417a-b649-47fb29b2c77f" valueTypeId="5a194b72-b8ec-4223-9152-a503c65d402a"/>
+    </producedTypes>
+    <name>Принтера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принтера</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="22e4ef9c-0251-48be-8571-6be5c2078d36">
+      <name>Принтер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Принтер</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Принтера</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b540b726-1c59-48e4-a27c-52da2c7565fc">
+      <name>Производитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Производитель</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Производители</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0fe0d60a-88f5-4bd4-bf69-055e6f526134">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

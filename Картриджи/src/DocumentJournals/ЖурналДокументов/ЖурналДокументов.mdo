@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97439433-1301-4466-9277-a11b0aad8bc8">
+  <producedTypes>
+    <selectionType typeId="84feb1b6-7d7b-4346-b445-0d2da90d37e8" valueTypeId="7f22929c-87b3-4348-914e-8f5de78a25c1"/>
+    <listType typeId="474604b0-6863-41b8-a630-f8f8ba008522" valueTypeId="7c43bcde-32a5-4f69-91d3-2c35112166be"/>
+    <managerType typeId="40ccf69c-9405-406f-9329-c8ca6d57e58f" valueTypeId="5e034ffc-8147-4321-a867-b33e773ed212"/>
+  </producedTypes>
+  <name>ЖурналДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал документов</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DocumentJournal.ЖурналДокументов.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеКартриджей</registeredDocuments>
+  <registeredDocuments>Document.Списание</registeredDocuments>
+  <registeredDocuments>Document.ПриемПередачаКартриджей</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="1d9ebf26-5630-44d3-87e0-73c6b040e5ea">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ПоступлениеКартриджей.Attribute.Подразделение</references>
+    <references>Document.Списание.Attribute.Подразделение</references>
+    <references>Document.ПриемПередачаКартриджей.Attribute.ОснПодразделение</references>
+  </columns>
+  <columns uuid="4ba7e9f5-4a64-468c-90a8-6d49d283d13e">
+    <name>ПользПодразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательское подразделение</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ПриемПередачаКартриджей.Attribute.ПользовПодразделение</references>
+  </columns>
+  <columns uuid="00519fa7-8e08-4363-a66f-6790ff39f98a">
+    <name>ДокОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.Списание.Attribute.ДокОснование</references>
+  </columns>
+  <forms uuid="e5a5a009-e8ab-41e0-bad9-28f311a6f5e4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

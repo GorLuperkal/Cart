@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7cbbae5-f077-44c6-b66a-d47f2da6d4e5">
+  <producedTypes>
+    <objectType typeId="14a0a7f8-62c0-4cbd-8e4b-0ea97aa46e60" valueTypeId="c93a33be-24ae-4447-ac24-06b2af886bde"/>
+    <refType typeId="1edd32d3-b4d1-401f-ad69-0bb0d30b0d1c" valueTypeId="c8f6a89e-7f7a-49df-8afe-e8bd00dc9f7e"/>
+    <selectionType typeId="811dc186-b459-49c5-a12d-ec8d4a358fe9" valueTypeId="13604542-bc72-43fd-9a75-6766a7ddb8d2"/>
+    <listType typeId="7084b6d5-8519-4f9f-8cc6-c410e58178e2" valueTypeId="affb5968-724b-4918-b544-ee87f4aa5568"/>
+    <managerType typeId="722db58d-ecfc-4801-9574-9dd4150e1120" valueTypeId="c80e5828-0ad5-464e-abfa-4344d2d903a0"/>
+  </producedTypes>
+  <name>Принтера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принтера</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Принтера.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Принтера.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Принтера.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Принтера.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="45f06e9a-3bb9-4e90-80e4-46121a4c7797">
+    <name>Производитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производитель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Производители</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e0d176c6-8415-4126-aa51-53ebccaef979">
+    <name>ОсновноеИзображение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное изображение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Файлы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ВидДанных</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ВидыДополнительнойИнформацииОбъектов.EnumValue.Изображение</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="efe2608a-891c-4b66-a89a-f1fe54499fd0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0a544116-e6a4-4d38-a963-39630e6585ae">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="298debba-775f-4299-8451-a5a0bf271b70">
+  <producedTypes>
+    <objectType typeId="0c6c5212-fdc5-4541-b073-e1fe787252f3" valueTypeId="48b331f5-905a-4f5d-9451-174460747f07"/>
+    <refType typeId="12dafdc7-b491-4d92-873b-2ce35aee366d" valueTypeId="c674592f-662b-4d50-b943-49cdbdb0ffcc"/>
+    <selectionType typeId="212acdae-b53a-49eb-ab7f-26821a115687" valueTypeId="54c75244-8016-41bf-99f0-4a11edc832d7"/>
+    <listType typeId="cb8b7999-def9-4385-86e5-71fb76bfb4cb" valueTypeId="c1c52b8f-8ed7-43d7-be0b-5787ff5f05a6"/>
+    <managerType typeId="58de1e8a-52f4-4a55-bae8-4622973d9aa0" valueTypeId="fbb5449e-b9d9-4779-ab69-b765dd3721ce"/>
+  </producedTypes>
+  <name>Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Подразделения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Подразделения.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="8e332dba-f0d2-4ac4-b0e3-3982040674e4">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17a3fdad-6f43-4683-ba49-c7a5639f6350">
+    <name>Принтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принтер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Принтера</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1eaa1121-11f0-46a7-9967-546c23dc451e">
+    <name>ВидПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид подразделения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыПодразделений</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="19122d0e-d9c6-4028-9c37-409b5472e38d">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="82b442d2-95ec-4541-8650-33cdebdb6ed1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f4361055-5834-4799-a9b2-c7b6c31ce9bf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="5f4546a5-5620-477c-ada0-02a9ef3d5965">
+    <name>ОбслуживаниеПринтеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обслуживание принтеров</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Подразделения</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

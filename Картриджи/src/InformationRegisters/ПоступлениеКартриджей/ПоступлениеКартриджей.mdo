@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bda8dd8c-2fb0-41c0-8741-15447f394f21">
+  <producedTypes>
+    <selectionType typeId="ea2f6274-e230-4192-84a1-25332ef8d0d8" valueTypeId="8f486dbc-ce33-47d0-bb4a-ec72f4e91568"/>
+    <listType typeId="eb49b029-d75f-4787-aec0-b7252052a80b" valueTypeId="e95187d3-f4c6-4432-8d55-07cfb01f152e"/>
+    <managerType typeId="c4833a0f-9430-496d-9882-353fcf261272" valueTypeId="d794ec67-5562-416a-8b67-d566005c8a4b"/>
+    <recordSetType typeId="4bcfc6f7-28e7-426f-8ca2-c80b7d8ec5ca" valueTypeId="bd9e82e7-80e2-4a64-83cb-2b2226418bf9"/>
+    <recordKeyType typeId="552c5c96-c9a7-4144-a587-280f07e19697" valueTypeId="7f4f11d0-681b-48cb-91f8-92dfdb8abe47"/>
+    <recordType typeId="c6ac8c92-5bd4-4584-9e58-1815edff3155" valueTypeId="1277a99e-f26d-4294-8f10-7c34df5be4cd"/>
+    <recordManagerType typeId="703e7055-d013-4a41-a1f3-5c5485fe57ef" valueTypeId="ace2a3bd-63e3-41db-a737-6e41f0ab9360"/>
+  </producedTypes>
+  <name>ПоступлениеКартриджей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление картриджей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="27f35290-e6fb-430c-8374-07502a9bfa2c">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="31457d65-0b0f-4233-afc0-f1ad97fdc58a">
+    <name>ПодразделениеИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение источник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bb927bfa-fb54-48e4-ab58-c856ced87391">
+    <name>Картриджи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картриджи</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.МоделиКартриджей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

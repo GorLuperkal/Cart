@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc34cf7d-9f6c-401e-8829-8540d8de6d95">
+  <name>Общая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Картриджи</value>
+  </synonym>
+  <comment></comment>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка1</picture>
+  </picture>
+  <content>Enum.СтатусыКартриджей</content>
+  <content>SettingsStorage.НастройкиПользователя</content>
+  <content>AccumulationRegister.ОстаткиКартриджей</content>
+  <content>DocumentJournal.ЖурналДокументов</content>
+  <content>SessionParameter.ТекущийПользователь</content>
+  <content>Report.ОстаткиКартриджейПоПодразделениям</content>
+  <content>DataProcessor.НаличиеКартриджей</content>
+  <content>InformationRegister.СпросКартриджей</content>
+  <content>Document.СпросНаКартриджи</content>
+  <content>Report.ОтчетГрафикДефицитаПрофицитаКартриджей</content>
+  <content>Report.ВедомостьПоКартриджам</content>
+  <content>FilterCriterion.СвязанныеДокументы</content>
+  <content>Report.ПотребностьКартриджи</content>
+  <content>InformationRegister.ПоступлениеКартриджей</content>
+  <content>Report.ПоступлениеКартриджей</content>
+  <content>Report.ОстатокСвободныхКартриджей</content>
+  <content>Report.ПотребностьКартриджи_ЗаВесьПериод</content>
+  <content>Report.ЗапросКартриджейЗаПериод</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d047548-a43a-47b2-8698-1d8e3a55dc5e">
+  <producedTypes>
+    <listType typeId="27d3dff4-ca70-43f3-b0e9-a137e79105d2" valueTypeId="67feb1d7-3a2f-42b6-9844-95e9f2200dc0"/>
+    <managerType typeId="570fc968-1b97-4a5d-ac7d-06d160fe2fe3" valueTypeId="05ff3e41-e4e3-44a3-8817-f7550b969e5f"/>
+  </producedTypes>
+  <name>СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>DocumentRef.СпросНаКартриджи</types>
+    <types>DocumentRef.ПриемПередачаКартриджей</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ПриемПередачаКартриджей.Attribute.ДокументОснование</content>
+</mdclass:FilterCriterion>

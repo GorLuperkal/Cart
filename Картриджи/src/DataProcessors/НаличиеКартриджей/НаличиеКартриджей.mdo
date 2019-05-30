@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d601f1b0-a5bd-42ff-9153-9ec45da1590e">
+  <producedTypes>
+    <objectType typeId="235dce37-2cf9-47ff-a170-ea7aea55236e" valueTypeId="bc4c3e7d-3f47-4b22-a3d6-ea44cdf6fe02"/>
+    <managerType typeId="b3962206-44b2-4b53-88aa-dda275a7ecf6" valueTypeId="07bf99f0-d5da-4ce8-a35b-4b4d0cf9a2c2"/>
+  </producedTypes>
+  <name>НаличиеКартриджей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наличие картриджей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НаличиеКартриджей.Form.Форма</defaultForm>
+  <forms uuid="83a99a1b-6ea2-44e2-b14b-281212771e78">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7322a08d-6c97-4226-b8c5-5611159641be">
+    <name>Макет</name>
+    <comment></comment>
+  </templates>
+  <templates uuid="9eee0d31-026a-4592-adfa-44fbfaf4daf2">
+    <name>Макет1</name>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

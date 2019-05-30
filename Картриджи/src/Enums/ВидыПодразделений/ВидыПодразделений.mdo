@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5120929e-1961-4a92-b9bf-662bf1747e79">
+  <producedTypes>
+    <refType typeId="7a4a4873-adf5-4c0e-96a8-ece55bedd9e7" valueTypeId="baf5ed3f-69c1-4191-8370-988daeac9d83"/>
+    <listType typeId="67d3eb76-783a-423a-af7c-5d0a2ea156c0" valueTypeId="16453913-aaea-4dd9-9a1a-9726eb244d52"/>
+    <managerType typeId="65d9512c-5992-418d-a398-229a3d6e5337" valueTypeId="7ba5bcb3-d1fc-4a60-8521-bf6b362f1adf"/>
+  </producedTypes>
+  <name>ВидыПодразделений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды подразделений</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6c3ebe05-7c9a-4516-a069-4494d2512b48">
+    <name>ЗаправляющаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заправляющая организация</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

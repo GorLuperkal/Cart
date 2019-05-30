@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14d61675-9c80-4096-b07d-805e254caf29">
+  <producedTypes>
+    <objectType typeId="a613bc57-8b39-4d3f-aad8-926b63232843" valueTypeId="23fcc25b-c435-484c-9e6b-95793f51d4c3"/>
+    <managerType typeId="92319bb8-a406-4332-99ed-90107074b7fc" valueTypeId="1b6f8206-fa36-4745-9af4-62b242a6dcdc"/>
+  </producedTypes>
+  <name>ВедомостьПоКартриджам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по картриджам</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВедомостьПоКартриджам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="7f1dadfb-e0ba-41d8-bc4c-b15bd5233546">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

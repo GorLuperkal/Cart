@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9762a7e-de56-40b8-b70c-a5e0724f9551">
+  <producedTypes>
+    <refType typeId="a15e2fac-dbd8-433f-a00f-0e2f6b4ebaf3" valueTypeId="982eb765-a3da-4372-bbb7-9d86f531dde7"/>
+    <listType typeId="9b4b468f-5be8-4395-989a-0ee75cdbf711" valueTypeId="9e6221fe-43fc-44a4-b695-18e38752e772"/>
+    <managerType typeId="f904d770-d9e1-4b51-9c28-6c14a6ffacf7" valueTypeId="256e929e-df12-4e61-8016-8db85b26f2ca"/>
+  </producedTypes>
+  <name>ИсполнениеСпросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнение спросов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7f8a4902-bb33-4e66-af6a-0426c450d474">
+    <name>НеВыполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выполнено</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d74ef2ef-fd14-4ffe-946a-99bac0c39f7b">
+    <name>ВыполненоЧастично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено частично</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b86d6373-e79f-4363-9520-01d82727944d">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

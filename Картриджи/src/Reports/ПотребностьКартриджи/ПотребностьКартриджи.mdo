@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7ce6952-e522-48ee-b0c6-b5533d658db0">
+  <producedTypes>
+    <objectType typeId="0fe247ad-7f28-4c57-8c97-23007fcb66a0" valueTypeId="68f6ce2b-5d17-4859-aa7f-ad9d3ee36457"/>
+    <managerType typeId="aa5f2c64-dee8-43d4-91cb-73d1ebd332c7" valueTypeId="395df89f-1a85-41ee-a31a-bdee11eb2d29"/>
+  </producedTypes>
+  <name>ПотребностьКартриджи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Потребность в картриджах</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПотребностьКартриджи.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="9945c871-5f6e-419d-831c-a8dd0e4a7f2a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

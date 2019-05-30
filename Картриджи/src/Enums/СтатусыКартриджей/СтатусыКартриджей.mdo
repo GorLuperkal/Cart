@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48361fb9-a658-4a44-9d6c-6b24acbf35de">
+  <producedTypes>
+    <refType typeId="3e05179e-071b-47a7-a58a-c988b08bf4d4" valueTypeId="f306cef8-8fda-4f6c-bd81-02f11f55b5dc"/>
+    <listType typeId="ae325c0e-9b19-45c8-bc4d-bb95aff3537a" valueTypeId="3a5e759d-fb2c-4983-9427-0a1b868eeaf7"/>
+    <managerType typeId="cc112d77-1b76-42af-843b-a188bb7d360a" valueTypeId="dd7c0433-d17d-4ff3-a045-c5bc447c6e18"/>
+  </producedTypes>
+  <name>СтатусыКартриджей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы картриджей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Enum.СтатусыКартриджей.Form.ФормаСписка</defaultListForm>
+  <enumValues uuid="155cddba-dc2f-4d9e-9084-2ab7ab855394">
+    <name>Полный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="5d0a93a6-9291-4e60-945f-dc55d231a30c">
+    <name>Пустой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пустой</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="39123546-d1a2-46c2-832f-2c51bcf43193">
+    <name>Неисправный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неисправный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="813b6005-a553-4079-a73d-167cc2752ac1">
+    <name>НаЗапрвке</name>
+    <synonym>
+      <key>ru</key>
+      <value>На запрвке</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e2b8354d-3f18-4f61-a8fb-207737afe5d5">
+    <name>Списанный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списанный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <forms uuid="9b39651f-e3f6-46d1-adf5-e853feb736e3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

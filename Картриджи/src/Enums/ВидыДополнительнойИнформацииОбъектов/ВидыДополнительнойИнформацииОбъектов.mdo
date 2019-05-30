@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f1d200c-b576-4706-b471-99bdb9281ac2">
+  <producedTypes>
+    <refType typeId="c3ffa371-ae4b-44d7-9b3e-7810806f9779" valueTypeId="655a9088-21a0-469c-bf6d-cb90b9d5b6c3"/>
+    <listType typeId="653ecbb0-f2f9-4c60-8bf1-b0265ef67b58" valueTypeId="7add4c23-5cb8-4029-aba7-0bce934be0a6"/>
+    <managerType typeId="3d25b146-6eb3-45a0-b2f5-dad1aad60ded" valueTypeId="653ebb21-a7cf-411a-9369-413fdc86db5e"/>
+  </producedTypes>
+  <name>ВидыДополнительнойИнформацииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды дополнительной информации объектов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5871a7d4-130e-408b-b09a-08265103efed">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="c642ca21-1fe3-48a2-bb28-4396589cc5cb">
+    <name>Изображение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изображение</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

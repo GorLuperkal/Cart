@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdaa7251-5841-4a25-af66-82b30bbd228f">
+  <producedTypes>
+    <objectType typeId="e99da5dd-85ab-4e09-8477-3c14ab9d41a0" valueTypeId="0efa116c-f065-4d18-9665-11e4d3c86282"/>
+    <managerType typeId="39ec3d23-e378-42e7-96a5-c0c3c7ed0377" valueTypeId="1b709059-0de6-4870-9e99-3bbbb94c7bbb"/>
+  </producedTypes>
+  <name>ОтчетГрафикДефицитаПрофицитаКартриджей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет график дефицита профицита картриджей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетГрафикДефицитаПрофицитаКартриджей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="17f06f7b-2cd6-439e-8031-8abfe8fa5e42">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
