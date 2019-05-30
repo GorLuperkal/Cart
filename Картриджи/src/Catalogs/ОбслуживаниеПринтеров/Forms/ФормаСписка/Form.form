@@ -463,10 +463,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
   <width>500</width>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
